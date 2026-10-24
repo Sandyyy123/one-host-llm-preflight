@@ -1,0 +1,2 @@
+# Runtime: Python 3.10+ standard library only.
+# Optional test runner: pytest (tests also run with python -m unittest).

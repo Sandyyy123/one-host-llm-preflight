@@ -1,0 +1,16 @@
+{
+  "model_id":"synthetic/example-not-a-real-model",
+  "model_revision":"0123456789abcdef0123456789abcdef01234567",
+  "runtime":"vllm",
+  "runtime_version":"illustrative-pinned-build",
+  "host_label":"synthetic-single-host",
+  "gpu_count":2,
+  "tensor_parallel":2,
+  "gpu_memory_gib":24,
+  "gpu_memory_fraction":0.9,
+  "weights_total_gib":20,
+  "kv_cache_per_gpu_gib":4,
+  "overhead_per_gpu_gib":3,
+  "context_tokens":2048,
+  "concurrent_requests":2
+}
